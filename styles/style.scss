@@ -73,7 +73,7 @@ header {
 
         @media (max-width: 600px) {
             object-fit: cover;
-            width: 280%;
+            width: 100%;
             
         }
     }
@@ -160,7 +160,7 @@ footer {
         height: auto;
         margin-bottom: 0.5em;
         @media (max-width: $breekpunt1) {
-          width: 40%;
+          width: 20%;
         }
     }
 }

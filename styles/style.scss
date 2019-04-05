@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+$color1: #FA9D1D;
+$color2: #82D400;
+$color3: #FC4540;
+$color4: #39BAAB;
+$color5: #FFED00;
+$color6: rgb(0, 0, 0);
+$color7: rgb(255, 255, 255);
+
+
+$alpha1: 0.5;
+$alpha2: 1;
+
+
+$fontset1: 'Nunito',
+sans-serif;
+
+$breekpunt: 560px;
+$breekpunt1: 1500px;
+
+
+* {
+  
+    font-family: $fontset1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontset1;
+     background-color: $color7;
+   
+ }
+
+p {
+    font-size: 1.1em;
+   
+    line-height: 1.5em;
+    color: rgb(68, 68, 68); 
+
+    @media (max-width: $breekpunt1) {
+        font-size: 0.9em;
+       
+    }
+}
+
+
+.column {
+    @media (max-width: 800px) {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    @media (max-width: 600px) {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+}
+
+//* navigatie *// 
+
+
+
+
+header {
+
+    img { 
+        object-fit: cover;
+        width: 100%;
+
+        @media (max-width: 600px) {
+            object-fit: cover;
+            width: 280%;
+            
+        }
+    }
+    
+}
+/* Centered text header*/
+.headerabove {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .link { 
+ background-color: $color4;
+ padding-top: 0.3em;
+ padding-bottom: 0.3em;
+ padding-left: 1.1em;
+ padding-right: 1.1em;
+ border-radius: 0.5em;
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 1em;
+ line-height: 2.5em;
+ @media (max-width: $breekpunt1)
+  {
+    line-height: 2.2em;
+font-size: 0.8em;
+} 
+}
+.link:hover {
+    background-color: rgb(44, 155, 142);
+    color: white;
+    text-decoration: none;
+    
+  }
+ 
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media (max-width: $breekpunt1) {
+   
+    } 
+
+    h1 { 
+        padding-top: 1em;
+        font-weight: 900; 
+        font-size: 3em;
+        color:$color4 ; 
+        @media (max-width: $breekpunt1) {
+            font-size: 2em; 
+            padding-top: 1.5em;
+           
+        }
+     
+    }
+    p { 
+        @media (max-width: $breekpunt1) {
+            font-size: 1em; 
+           
+        } 
+    }
+  }
+
+/* footer */
+footer {
+   padding-top: 2em;
+    text-align: center;
+    color: rgb(90, 90, 90);
+   p {
+    line-height: 1.7em;
+    font-size: 1em;
+   
+    @media (max-width: $breekpunt1) {
+        font-size: 0.8em; 
+    }
+   }
+    img {
+        object-fit: cover;
+        width: 8%;
+        height: auto;
+        margin-bottom: 0.5em;
+        @media (max-width: $breekpunt1) {
+          width: 40%;
+        }
+    }
+}
+
+
+
+/* welkom - home */
+
+.bg-groen { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+
+    p { 
+        color: white; 
+        text-align: center;
+    }
+
+    img {
+        object-fit: cover;
+        width: 30%;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+    
+
+}
+
+.gebruiklogo {
+    margin-left: 15em;
+    margin-right: 15em;
+    @media (max-width: $breekpunt1) {
+        margin-left: 1em;
+    margin-right: 1em;
+    }
+
+   .card { 
+       border-radius: 0.5em;
+
+       button { 
+        border-radius: 0.5em;
+        color:  $color4;
+        border-color: $color4;
+        border-width: 0.15em;
+        background-color: transparent;
+        font-weight: bold;
+        
+       }
+   }
+
+
+    h2 { 
+        text-align: center; 
+        font-weight: 800;
+        color: $color4;
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+        font-size: 2.5em;
+    }
+
+    h3 { 
+        text-align: center; 
+        font-weight: bold;
+        color: black;
+        margin-top: 0.2em;
+    }
+
+    h4 { 
+        text-align: center; 
+        font-weight: bolder;
+        color: black;
+        margin-top: 0.2em;
+        font-size: 1.5em;
+    }
+
+    p { 
+        text-align: center; 
+        padding-bottom: 0.5em;
+       
+    }
+}
+
+.bg-groen1 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+
+    p { 
+        color: white; 
+        text-align: center;
+    }
+
+    h3 { 
+        text-align: center; 
+        font-weight: 800;
+        color: white;
+        margin-top: 0.2em;
+        font-size: 3em;
+    }
+
+   
+}
+.bg-groen2 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+   
+}
+.bg-groen3 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+img { 
+    object-fit: cover;
+        width: 90%;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  
+}
+   
+p {
+    color: white;
+    
+}
+h3 { 
+    text-align: center; 
+    font-weight: bold;
+    color: white;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+}
+
+.gebruiklogo1 {
+    margin-left: 15em;
+    margin-right: 15em;
+    @media (max-width: $breekpunt1) {
+        margin-left: 1em;
+    margin-right: 1em;
+    }
+
+    .card { 
+        border-radius: 0.5em;
+ 
+        button { 
+         border-radius: 0.5em;
+         color:  $color4;
+         border-color: $color4;
+         border-width: 0.15em;
+         background-color: transparent;
+         font-weight: bold;
+         
+        }
+    }
+
+
+   
+    h3 { 
+        text-align: center; 
+        font-weight: 800;
+        color: black;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-size: 3em;
+    }
+
+   
+
+    p { 
+        text-align: center; 
+       
+    }
+}
+
+
+
+/* kleuren */
+.bg-groen1 { 
+    h4 { 
+        text-align: center; 
+        color: white; 
+        font-weight: bolder;
+        padding-bottom: 0.5em;
+    }
+}
+.gebruiklogo2 { 
+    margin-left: 10em;
+    margin-right: 10em;
+
+    @media (max-width: $breekpunt1) {
+        margin-left: 1em;
+    margin-right: 1em;
+    }
+    .card { 
+        border-radius: 0.5em;
+ 
+        button { 
+         border-radius: 0.5em;
+         color:  $color4;
+         border-color: $color4;
+         border-width: 0.15em;
+         background-color: transparent;
+         font-weight: bold;
+         
+        }
+    }
+
+    p { 
+        padding-bottom: 0em;
+        text-align: center;
+       
+    }
+    tbody { 
+        font-size: 0.8em;
+    }
+
+    .baloo { 
+        font-weight: bold;
+        text-align: center;
+    }
+
+    h4 { 
+        text-align: center; 
+        color: black; 
+        font-weight: bolder;
+        padding-bottom: 0.5em;
+        padding-top: 1em;
+    }
+    img { 
+        object-fit: cover;
+        width: 100%;
+    }
+   
+}
+
+.kaartjes { 
+    margin-top: 2em;
+    
+}
+
+
+/* typo */
+
+.bg-groen4 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+   
+p {
+    color: white;
+    text-align: center; 
+    
+}
+h3 { 
+    text-align: center; 
+    font-weight: bold;
+    color: white;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 3em;
+}
+}
+
+
+.gebruiklogo3 {
+    margin-left: 15em;
+    margin-right: 15em;
+    @media (max-width: $breekpunt1) {
+        margin-left: 1em;
+    margin-right: 1em;
+    }
+
+   
+    .card { 
+        border-radius: 0.5em;
+ 
+        button { 
+         border-radius: 0.5em;
+         color:  $color4;
+         border-color: $color4;
+         border-width: 0.15em;
+         background-color: transparent;
+         font-weight: bold;
+         
+        }
+    }
+
+    h2 { 
+        text-align: center; 
+        font-weight: 800;
+        color: $color4;
+        margin-top: 1em;
+        margin-bottom: 0.8em;
+        font-size: 2.2em;
+     
+
+    h3 { 
+        text-align: center; 
+        font-weight: bold;
+        color: black;
+        margin-top: 0.2em;
+    }
+
+    p { 
+        
+        padding-bottom: 0.5em;
+       
+    }
+}
+
+
+h4 { 
+       
+    font-weight: 700;
+    color: black;
+    margin-top: 0.2em;
+    font-size: 1.5em;
+}
+
+button  { 
+    margin-left: 9em;
+    @media (max-width: $breekpunt1) {
+        margin-left: 1.2em;
+    
+    }
+}
+.card { 
+    border: none;
+}
+}
+
+
+
+
+.bg-groen5 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .card { 
+        border-radius: 0.5em;
+ 
+        button { 
+         border-radius: 0.5em;
+         color:  $color4;
+         border-color: $color4;
+         border-width: 0.15em;
+         background-color: transparent;
+         font-weight: bold;
+         
+        }
+    }
+
+    p { 
+        color: white; 
+        text-align: center;
+    }
+
+   .card { 
+       border:none;
+       p { 
+           color: black;
+       }
+   }
+
+    h2 { 
+        text-align: center; 
+        font-weight: 800;
+        color: white;
+        margin-top: 1em;
+        margin-bottom: 0.8em;
+        font-size: 2.2em; 
+
+        }
+
+        h4 { 
+       
+            font-weight: 700;
+            color: black;
+            margin-top: 0.2em;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+      .imgiconen { 
+            object-fit: cover;
+            width: 100%;
+        }
+        .buttonwit { 
+            color: white;
+            border-color: white;
+            background-color: transparent;
+            border-radius: 0.5em;
+            border-width: 0.15em;
+            font-weight: bold;
+            padding-left: 0.7em;
+            padding-right: 0.7em;
+            padding-top: 0.1em;
+            padding-bottom: 0.1em;
+        }
+}
+
+
+
+
+.gebruiklogo {
+    margin-left: 15em;
+    margin-right: 15em;
+    @media (max-width: $breekpunt1) {
+        margin-left: 1em;
+    margin-right: 1em;
+    }
+
+    h4 { 
+        text-align: center; 
+        font-weight: bolder;
+        color: black;
+        margin-top: 0.2em;
+        font-size: 1.5em;
+    }
+
+    p { 
+        text-align: center; 
+        padding-bottom: 0.5em;
+       
+    }
+    .imgiconen { 
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+
+.bg-groen6 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+   
+p {
+    color: rgb(68, 68, 68); 
+    
+}
+b { 
+    color:black;
+}
+h2 { 
+    text-align: center; 
+    font-weight: bold;
+    color: white;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+h3 { 
+  
+    font-weight: bold;
+    color: black;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.card { 
+    border-radius: 0.5em;
+    border:none;
+
+    button { 
+     border-radius: 0.5em;
+     color:  $color4;
+     border-color: $color4;
+     border-width: 0.15em;
+     background-color: transparent;
+     font-weight: bold;
+     
+    }
+}
+}
+
+
+.bg-groen7 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+   
+p {
+    color: rgb(68, 68, 68); 
+    text-align: center; 
+ 
+    
+}
+b { 
+    color:black;
+    text-align: center; 
+}
+h2 { 
+    text-align: center; 
+    font-weight: bold;
+    color: white;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+h3 { 
+    text-align: center; 
+    font-weight: bold;
+    color: black;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.card { 
+    border-radius: 0.5em;
+    border:none;
+
+    button { 
+     border-radius: 0.5em;
+     color:  $color4;
+     border-color: $color4;
+     border-width: 0.15em;
+     background-color: transparent;
+     font-weight: bold;
+     
+    }
+}
+
+}
+
+
+.bg-groen8 { 
+    background-color: $color4;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+   
+    color: white;
+  
+
+    @media (max-width: $breekpunt1) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+   
+p {
+    color:white;
+    text-align: center; 
+    
+}
+b { 
+    color:black;
+    text-align: center; 
+}
+h2 { 
+    text-align: center; 
+    font-weight: bold;
+    color: white;
+    margin-top: 1em;
+ 
+}
+h3 { 
+    text-align: center; 
+    font-weight: bold;
+    color: black;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.card { 
+    border-radius: 0.5em;
+    border:none;
+
+    button { 
+     border-radius: 0.5em;
+     color:  $color4;
+     border-color: $color4;
+     border-width: 0.15em;
+     background-color: transparent;
+     font-weight: bold;
+     
+    }
+}
+}
+
+
+//* navigatie *// 
+nav {
+   
+   
+    background-color: $color4;
+
+    
+    .navbar-brand {
+        font-weight: bolder;
+        padding-left: 3em;
+        font-family: $fontset1;
+        margin-right: 5em;
+        
+        @media (max-width: $breekpunt1) {
+           
+            padding-left: 0em;
+        }
+
+       img { 
+        object-fit: cover;
+        width: 10%; 
+        height: auto; 
+        @media (max-width: $breekpunt1) {
+            object-fit: cover;
+            width: 30%; 
+            height: auto; 
+            margin-right: 0em;
+        }
+       }
+
+       
+    }
+
+   
+    .nav-item {
+        
+        margin-left: 2em;
+
+
+    }
+
+    a {
+        text-transform: uppercase;
+        color: white;
+       
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-weight: bolder;
+}
+
+

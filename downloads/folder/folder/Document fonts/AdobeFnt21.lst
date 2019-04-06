@@ -1,0 +1,115 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/nelewillem/Documents/GitHub/huisstijlgids-loopbrug/downloads/folder/folder/Document fonts/AdobeFnt20.lst
+FileLength:2223
+FileModTime:576070291
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/nelewillem/Documents/GitHub/huisstijlgids-loopbrug/downloads/folder/folder/Document fonts/AdobeFnt21.lst
+FileLength:2689
+FileModTime:576246418
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Regular
+FamilyName:Nunito
+StyleName:Regular
+MenuName:Nunito
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Nunito Regular
+WritingScript:Roman
+OutlineFileName:/Users/nelewillem/Documents/GitHub/huisstijlgids-loopbrug/downloads/folder/folder/Document fonts/Nunito-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:113832
+FileModTime:366418800
+NameArray:0,Mac,4,Nunito Regular
+NameArray:0,Win,1,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Bold
+FamilyName:Nunito
+StyleName:Bold
+MenuName:Nunito
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Nunito Bold
+WritingScript:Roman
+OutlineFileName:/Users/nelewillem/Documents/GitHub/huisstijlgids-loopbrug/downloads/folder/folder/Document fonts/Nunito-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:115852
+FileModTime:366418800
+NameArray:0,Mac,4,Nunito Bold
+NameArray:0,Win,1,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Black
+FamilyName:Nunito
+StyleName:Black
+MenuName:Nunito Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Nunito Black
+WritingScript:Roman
+OutlineFileName:/Users/nelewillem/Documents/GitHub/huisstijlgids-loopbrug/downloads/folder/folder/Document fonts/Nunito-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:115896
+FileModTime:366418800
+NameArray:0,Mac,4,Nunito Black
+NameArray:0,Win,1,Nunito Black
+NameArray:0,Win,16,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/nelewillem/Documents/GitHub/huisstijlgids-loopbrug/downloads/folder/folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:565521305
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+

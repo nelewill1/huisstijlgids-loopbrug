@@ -195,11 +195,13 @@ footer img {
 }
 
 .gebruiklogo .card button {
-  border-radius: 0.5em;
-  color: #39BAAB;
+  border-radius: 0.8em;
+  color: white;
+  background-color: #39BAAB;
   border-color: #39BAAB;
   border-width: 0.15em;
-  background-color: transparent;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: bold;
 }
 
@@ -531,11 +533,13 @@ footer img {
 }
 
 .bg-groen5 .card button {
-  border-radius: 0.5em;
-  color: #39BAAB;
+  border-radius: 0.8em;
+  color: white;
+  background-color: #39BAAB;
   border-color: #39BAAB;
   border-width: 0.15em;
-  background-color: transparent;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: bold;
 }
 
@@ -664,12 +668,15 @@ footer img {
 }
 
 .bg-groen6 .card button {
-  border-radius: 0.5em;
-  color: #39BAAB;
+  border-radius: 0.8em;
+  color: white;
+  background-color: #39BAAB;
   border-color: #39BAAB;
   border-width: 0.15em;
-  background-color: transparent;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: bold;
+  margin-right: 0.2em;
 }
 
 .bg-groen7 {

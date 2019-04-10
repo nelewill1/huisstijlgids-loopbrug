@@ -212,11 +212,13 @@ footer {
        border-radius: 0.5em;
 
        button { 
-        border-radius: 0.5em;
-        color:  $color4;
+        border-radius: 0.8em;
+        color:  white;
+        background-color: $color4;
         border-color: $color4;
         border-width: 0.15em;
-        background-color: transparent;
+       padding-left: 1em;
+       padding-right: 1em;
         font-weight: bold;
         
        }
@@ -560,15 +562,18 @@ button  {
         border-radius: 0.5em;
  
         button { 
-         border-radius: 0.5em;
-         color:  $color4;
+         border-radius: 0.8em;
+         color:  white;
+         background-color: $color4;
          border-color: $color4;
          border-width: 0.15em;
-         background-color: transparent;
+        padding-left: 1em;
+        padding-right: 1em;
          font-weight: bold;
          
         }
     }
+ 
 
     p { 
         color: white; 
@@ -688,18 +693,22 @@ h3 {
 
 .card { 
     border-radius: 0.5em;
-    border:none;
-
+border:none;
     button { 
-     border-radius: 0.5em;
-     color:  $color4;
+     border-radius: 0.8em;
+     color:  white;
+     background-color: $color4;
      border-color: $color4;
      border-width: 0.15em;
-     background-color: transparent;
+    padding-left: 1em;
+    padding-right: 1em;
      font-weight: bold;
+     margin-right: 0.2em;
+    
      
     }
 }
+
 }
 
 

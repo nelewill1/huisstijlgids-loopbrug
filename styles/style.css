@@ -461,15 +461,19 @@ footer img {
 
 .gebruiklogo3 .card {
   border-radius: 0.5em;
+  border: none;
 }
 
 .gebruiklogo3 .card button {
-  border-radius: 0.5em;
-  color: #39BAAB;
+  border-radius: 0.8em;
+  color: white;
+  background-color: #39BAAB;
   border-color: #39BAAB;
   border-width: 0.15em;
-  background-color: transparent;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: bold;
+  margin-right: 0.2em;
 }
 
 .gebruiklogo3 h2 {
